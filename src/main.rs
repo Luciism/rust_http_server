@@ -1,4 +1,4 @@
-use lucism_status::http;
+use rust_http_server::http;
 
 fn main() -> ! {
     let mut server = http::HTTPServer::new("0.0.0.0", 7878);
